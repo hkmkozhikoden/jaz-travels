@@ -2,18 +2,19 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Favas from "../../src/assets/img/Favas.jpg";
-import Fayis from "../../src/assets/img/fayis.jpg";
-import Nithin from "../../src/assets/img/nithin.jpg";
+import Favas from "../../src/assets/img/img/kashmir.jpg";
+import Fayis from "../../src/assets/img/img/kashmir 1.jpg";
+import Nithin from "../../src/assets/img/img/delhi.jpg";
 import '../assets/css/banner.css';
 
 function Banner() {
   const settings = {
     infinite: true,
     speed: 1500,
-    autoplay: true,
+    autoplay: false,
     slidesToShow: 1,
     arrows: true,
+    dot:false,
     slidesToScroll: 1,
   };
 
@@ -26,11 +27,11 @@ function Banner() {
               {data.map((d, index) => (
                 <div key={index} className="banner-slide">
                   <div className="banner-content">
-                    <h4 className="text-xl-semibold">{d.name}</h4>
-                    <h5 className="text-xl-semibold">{d.possion}</h5>
-                    <p className="trancate-5">{d.review}</p>
+                    <h1 className="trancate-5">{d.review}</h1>
+                    <button className="btn-contact">{d.name}</button>
                   </div>
                   <img src={d.img} alt={d.name} className="banner-img" />
+
                 </div>
               ))}
             </Slider>
@@ -46,21 +47,21 @@ const data = [
     name: "Favas",
     img: Favas,
     review:
-      "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s...",
+      "Best & Amazing Adventure in The World.",
     possion: "CEO",
   },
   {
     name: "fayis",
     img: Fayis,
     review:
-      "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s...",
+      "Best & Amazing Adventure in The World.",
     possion: "CMO",
   },
   {
     name: "Nithin",
     img: Nithin,
     review:
-      "Lorem Ipsum has been the industrys standard dummy text ever since the 1500s...",
+      "Best & Amazing Adventure in The World.",
     possion: "MANAGER",
   },
 ];

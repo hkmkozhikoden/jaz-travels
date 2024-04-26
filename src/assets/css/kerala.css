@@ -1,0 +1,15 @@
+.kerala 
+{
+    position: relative;
+}
+.kerala .kerala-img
+{
+    position: relative;
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.kerala .kerala-img.b
+{
+    transform: translateY(268px);
+}

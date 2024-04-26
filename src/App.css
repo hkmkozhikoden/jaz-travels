@@ -1,0 +1,38 @@
+section
+{
+    padding: 0px 60px;
+}
+@media(max-width:767px)
+{
+    section
+    {
+    padding: 0px 30px;
+
+    }
+    
+}
+.bg-l-white
+{
+    background-color:#fcf8f5;
+}
+.truncate-3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+  .truncate-3 {
+    -webkit-line-clamp: 3;
+  }
+  .sub-head
+  {
+    font-weight: 700;
+  }
+  .btn-blue
+  {
+    background-color: rgb(10, 104, 212) ;
+    color: white ;
+    box-shadow:10px 20px 20px #e6e6e6;
+    padding: 10px 20px ;
+    border: none;
+  }

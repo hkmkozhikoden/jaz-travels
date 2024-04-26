@@ -18,7 +18,7 @@ function Navbar() {
                     <div className="col-md-3 col-6">
                     <h3>LOGO</h3>
                     </div>
-                    <div className="col-md-9 col-6 text-end">
+                    <div className="col-md-9 col-6 justify-content-end">
                        <nav ref={navRef} className="w-100 text-end"> 
 			           	<a href="/#">Home</a>
 			           	<a href="/#">My work</a>

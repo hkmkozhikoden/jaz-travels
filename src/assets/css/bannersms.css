@@ -1,0 +1,48 @@
+.sms-sec
+{
+    margin-top: -200px;
+}
+.sms-card .search-box-single::after
+{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 40px;
+    background: #dddddd;
+}
+.search-box-single
+{
+    display: flex;
+    align-items: center;
+    
+}
+.sms-card
+{
+    padding: 16px 25px 16px 20px;
+    box-shadow: 1px 1px 10px 8px rgba(0, 0, 0, .04);
+    background-color:rgb(255, 255, 255) !important;
+    position: relative;
+    z-index: 11;
+}
+
+.sms-sec .sms-card .user-img
+{
+    height: 30px;
+    max-width: 100%;
+    padding-right: 10px;
+}
+.sms-card .cont input, .sms-card .cont input:focus-visible
+{
+    background-color: #fff  !important;
+    border: none !important;
+    padding: 20px 0px;
+}
+.btn-sms-submit
+{
+    background-color:#33333e;
+    color: #fff;
+    padding: 20px 0px;
+}
