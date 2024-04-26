@@ -1,5 +1,5 @@
 nav {
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
@@ -12,15 +12,20 @@ nav {
     align-items: center;
     justify-content: end;
   }
+  nav li
+  {
+    list-style: none;
+  }
   
   #navbar li {
-    list-style: none;
+    list-style: none !important;
+    text-decoration: none !important;
     padding: 0 20px;
     position: relative;
   }
   
   #navbar li a {
-    text-decoration: none;
+    text-decoration: none !important;
     font-size: 1.3rem;
     font-weight: 600;
     color: #fff;

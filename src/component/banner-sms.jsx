@@ -7,7 +7,7 @@ const BannerSms = () => {
     <div>
       <section className='p-0 sms-sec'>
         <div className="container">
-            <div className="sms-card">
+            <div className="sms-card" data-aos="zoom-in-down" data-aos-offset="10">
                 <div className="row align-items-center">
                     <div className="col-md-4">
                         <div className="search-box-single">
@@ -31,7 +31,7 @@ const BannerSms = () => {
                     </div>
                     <div className="col-md-4">
                          <div className="search-box-single">
-                            <button type="submit" class="btn-sms-submit w-100 h-100">ENQUIRE NOW</button>
+                            <button type="submit" className="btn-sms-submit w-100 h-100">ENQUIRE NOW</button>
                          </div>
                     </div>
                 </div>

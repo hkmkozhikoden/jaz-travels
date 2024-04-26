@@ -7,6 +7,8 @@ import Blogslider from '../component/blog-sldier'
 import Kerala from '../component/kerala'
 import Destination from '../component/destination'
 import Footer from '../component/footer'
+import HomeContact from '../component/home-content'
+import Testimonial from '../component/testimonial'
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
       <Blogslider></Blogslider>
       <Kerala></Kerala>
       <Destination></Destination>
+      <HomeContact></HomeContact>
+      <Testimonial></Testimonial>
       <Footer></Footer>
     </div>
   )

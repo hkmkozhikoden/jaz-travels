@@ -8,7 +8,7 @@ const Kerala = () => {
       <section className='kerala bg-l-white'> 
         <div className="container">
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-md-6" data-aos="zoom-in-right" data-aos-offset="10">
                 <h2 className='sub head '>
                 Welcome To Global Tours Kerala
                 </h2>
@@ -25,10 +25,10 @@ const Kerala = () => {
               </div>
               <div className="col-md-6">
                <div className="row align-items-between">
-                  <div className="col-md-6">
+                  <div className="col-md-6" data-aos="zoom-in-left" data-aos-offset="10">
                     <img src={Kerala1} alt="kerala img" className='kerala-img' />
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-6" data-aos="zoom-in-left" data-aos-offset="10">
                     <img src={Kerala2} alt="kerala img" className='kerala-img b' />
                   </div>
                </div>

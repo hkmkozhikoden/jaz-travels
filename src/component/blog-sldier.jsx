@@ -24,7 +24,7 @@ const Blogslider = () => {
               <div className="col-12 mt-2">
                 <h3 className='text-center sub-head text-uppercase'>Our Main package</h3>
               </div>
-              <div className="col-12">
+              <div className="col-12" data-aos="fade-up" data-aos-offset="10">
                 <div className="blog-slider-slick justify-content-center">
                      <Slider {...settings}>
                          {data.map((d, index) => (

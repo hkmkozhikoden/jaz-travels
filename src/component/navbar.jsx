@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import '../assets/css/navbar.css'
 import '../assets/css/main.css'
+import { Link } from "react-router-dom";
 function Navbar() {
 	const navRef = useRef();
 
@@ -19,11 +20,12 @@ function Navbar() {
                     <h3>LOGO</h3>
                     </div>
                     <div className="col-md-9 col-6 justify-content-end">
-                       <nav ref={navRef} className="w-100 text-end"> 
-			           	<a href="/#">Home</a>
-			           	<a href="/#">My work</a>
-			           	<a href="/#">Blog</a>
-			           	<a href="/#">About me</a>
+                       <nav ref={navRef} className=" text-end"> 
+					   <Link to={"/"}> <li > Home</li></Link>
+          			   <Link to={"/about"}><li>About</li></Link>
+          			   <Link to={"/blogs"}><li>Blog</li></Link>
+          			   <Link to={"/gallery"}><li>Gallery</li></Link>
+          			   <Link to={"/contact"}><li>Contact</li></Link>
 			           	<button
 			           		className="nav-btn nav-close-btn"
 			           		onClick={showNavbar}>

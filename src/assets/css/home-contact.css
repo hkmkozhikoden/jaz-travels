@@ -1,0 +1,27 @@
+.home-contact h4
+{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #fff;
+}
+.home-contact p
+{
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+}
+.btn-contact
+{
+    background-color: azure !important;
+    padding: 10px 25px;
+    border: none !important;
+}
+.home-contact
+{
+    /* background: url(../img/img/kashmir.jpg); */
+    background:linear-gradient(180deg, #00000052, #000000d9), url(../img/kerala/kerala4.jpg) ;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0px;
+}

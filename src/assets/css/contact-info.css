@@ -1,0 +1,10 @@
+.contact-form
+{
+    background-color: #1F3046 !important;
+}
+.btn-submit
+{
+    background-color: aliceblue;
+    padding: 7px 20px;
+    box-shadow: 1px 1px 10px 8px rgba(0, 0, 0, .04);
+}

@@ -25,8 +25,8 @@ function Banner() {
           <div className="banner-cover">
             <Slider {...settings}>
               {data.map((d, index) => (
-                <div key={index} className="banner-slide">
-                  <div className="banner-content">
+                <div key={index} className="banner-slide" data-aos="fade-down" data-aos-offset="10">
+                  <div className="banner-content" >
                     <h1 className="trancate-5">{d.review}</h1>
                     <button className="btn-contact">{d.name}</button>
                   </div>
