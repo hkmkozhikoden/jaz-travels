@@ -1,5 +1,6 @@
 import React from 'react'
 import '../assets/css/contact-info.css'
+import Map from '../component/map'
 const ContactInfo = () => {
   return (
     <div>
@@ -62,13 +63,14 @@ const ContactInfo = () => {
                             <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h6>
                         </div>
                         <div className="col-12" data-aos="fade-up" data-aos-offset="10">
-                        <button className='btn-submit'>Live chat</button>
+                        <button className='btn-submit mb-3'>Live chat</button>
                         </div>
                     </div>
                     </div>
                 </div>
             </div>
         </div>
+        <Map/>
       </section>
     </div>
   )

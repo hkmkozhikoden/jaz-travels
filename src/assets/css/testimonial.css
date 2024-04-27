@@ -9,7 +9,7 @@
   .testimonial .testi-cont
   {
     padding: 50px 30px !important;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     box-shadow: 1px 1px 10px 8px rgba(0, 0, 0, .04);
   }
   .testimonial .slcik-slider
@@ -17,7 +17,9 @@
     overflow: none;
   }
   .testimonial .slick-slide {
-    margin-left: 10px !important;
+    /* margin-left: 20px !important; */
+    overflow: hidden;
+    /* margin-right: 20px; */
   }
 .testimonial .slick-prev, .slick-next
   {

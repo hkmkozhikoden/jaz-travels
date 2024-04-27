@@ -15,10 +15,12 @@ function Testimonial() {
         autoplay:true,
         pauseOnFocus: true,
         pauseOnHover: true,
-        slidesToShow: 1.1,
+        slidesToShow: 1,
         arrows:true,
         slidesToScroll: 1,
+        
       };
+
   return (
     <div>
       <section className="testimonial">

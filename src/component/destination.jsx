@@ -15,7 +15,7 @@ const Destination = () => {
                     <h6>TOURS</h6>
                     <h1 className='text-uppercase sub-head'>International</h1>
                 </div>
-                <div className="col-md-4 col-lg-3" data-aos="zoom-in-right" data-aos-offset="10">
+                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
                     <div className="card-sec">
                         <img src={Kerala} alt="destination 1" className='trip-img' />
                         <div className="dest-cont text-center mt-3">
@@ -25,7 +25,7 @@ const Destination = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 col-lg-3" data-aos="zoom-in-right" data-aos-offset="10">
+                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
                     <div className="card-sec">
                         <img src={Kerala1} alt="destination 1" className='trip-img' />
                         <div className="dest-cont text-center mt-3">
@@ -35,7 +35,7 @@ const Destination = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 col-lg-3" data-aos="zoom-in-right" data-aos-offset="10">
+                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
                     <div className="card-sec">
                         <img src={Kerala2} alt="destination 1" className='trip-img' />
                         <div className="dest-cont text-center mt-3">
@@ -45,7 +45,7 @@ const Destination = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 col-lg-3" data-aos="zoom-in-right" data-aos-offset="10">
+                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
                     <div className="card-sec">
                         <img src={Kerala3} alt="destination 1" className='trip-img' />
                         <div className="dest-cont text-center mt-3">
@@ -65,7 +65,7 @@ const Destination = () => {
                     <h6>TOURS</h6>
                     <h1 className='text-uppercase sub-head'>National</h1>
                 </div>
-                <div className="col-md-4 col-lg-3" data-aos="zoom-in-right" data-aos-offset="10">
+                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
                     <div className="card-sec">
                         <img src={Kerala} alt="destination 1" className='trip-img' />
                         <div className="dest-cont text-center mt-3">
@@ -75,7 +75,7 @@ const Destination = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 col-lg-3" data-aos="zoom-in-right" data-aos-offset="10">
+                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
                     <div className="card-sec">
                         <img src={Kerala2} alt="destination 1" className='trip-img' />
                         <div className="dest-cont text-center mt-3">
@@ -85,7 +85,7 @@ const Destination = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 col-lg-3" data-aos="zoom-in-right" data-aos-offset="10">
+                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
                     <div className="card-sec">
                         <img src={Kerala1} alt="destination 1" className='trip-img' />
                         <div className="dest-cont text-center mt-3">
@@ -95,7 +95,7 @@ const Destination = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 col-lg-3" data-aos="zoom-in-right" data-aos-offset="10">
+                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
                     <div className="card-sec">
                         <img src={Kerala4} alt="destination 1" className='trip-img' />
                         <div className="dest-cont text-center mt-3">

@@ -7,9 +7,13 @@
     position: relative;
     max-width: 100%;
     height: 300px;
+    width: 100%;
     object-fit: cover;
 }
-.kerala .kerala-img.b
+@media (min-width:767px)
+{
+    .kerala .kerala-img.b
 {
     transform: translateY(268px);
+}
 }

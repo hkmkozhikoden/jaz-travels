@@ -23,12 +23,12 @@ const Kerala = () => {
                 </p>
                 <button className='btn-blue'>Explore more</button>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 mb-3 mt-3">
                <div className="row align-items-between">
                   <div className="col-md-6" data-aos="zoom-in-left" data-aos-offset="10">
                     <img src={Kerala1} alt="kerala img" className='kerala-img' />
                   </div>
-                  <div className="col-md-6" data-aos="zoom-in-left" data-aos-offset="10">
+                  <div className="col-md-6 mb-3 mt-3" data-aos="zoom-in-left" data-aos-offset="10">
                     <img src={Kerala2} alt="kerala img" className='kerala-img b' />
                   </div>
                </div>

@@ -6,13 +6,29 @@ import Blog2 from '../assets/img/img/kashmir 1.jpg'
 import Blog3 from '../assets/img/img/delhi.jpg'
 const Blogslider = () => {
     const settings = {
-        infinite: true,
-        speed: 1400,
-        autoplay: true,
-        slidesToScroll: 1,
-        slidesToShow: 3,
-        arrow: false,
-        dots: false,
+      dots: true,
+      arrows: false,
+      slidesToScroll:1,
+      slidesToShow:3,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      responsive: [{
+ 
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          infinite: true
+        }
+   
+      }, {
+   
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          dots: true
+        }
+   
+      }]
     };
     
    
