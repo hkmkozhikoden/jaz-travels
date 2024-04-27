@@ -27,8 +27,8 @@ function Banner() {
               {data.map((d, index) => (
                 <div key={index} className="banner-slide" data-aos="fade-down" data-aos-offset="10">
                   <div className="banner-content" >
-                    <h1 className="trancate-5">{d.review}</h1>
-                    <button className="btn-contact">{d.name}</button>
+                    <h1 className="trancate-5">{d.mainhead}</h1>
+                    <button className="btn-1 btn-contact">{d.name}</button>
                   </div>
                   <img src={d.img} alt={d.name} className="banner-img" />
 
@@ -46,21 +46,21 @@ const data = [
   {
     name: "Favas",
     img: Favas,
-    review:
+    mainhead:
       "Best & Amazing Adventure in The World.",
     possion: "CEO",
   },
   {
     name: "fayis",
     img: Fayis,
-    review:
+    mainhead:
       "Best & Amazing Adventure in The World.",
     possion: "CMO",
   },
   {
     name: "Nithin",
     img: Nithin,
-    review:
+    mainhead:
       "Best & Amazing Adventure in The World.",
     possion: "MANAGER",
   },

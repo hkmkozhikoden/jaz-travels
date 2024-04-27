@@ -4,7 +4,7 @@ import Map from '../component/map'
 const ContactInfo = () => {
   return (
     <div>
-      <section className='contact-form'>
+      <section className='contact-form position-relative'>
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-md-6" data-aos="fade-right" data-aos-offset="10">
@@ -25,10 +25,10 @@ const ContactInfo = () => {
                         <input type="text" className="form-control form-group" placeholder="Subject" required />
                         </div>
                         <div className="col-md-12">
-                        <input type="text" className="form-control form-group" placeholder="Message" required />
+                        <textarea type="text" className="form-control form-group" placeholder="Message" required />
                         </div>
                         <div className="col-12" data-aos="fade-up" data-aos-offset="10">
-                            <button className='btn-submit'>Sumbit</button>
+                            <button className='btn-submit mt-3 mb-3'>Sumbit</button>
                         </div>
                     </div>
                   </div>

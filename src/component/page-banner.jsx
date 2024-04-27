@@ -4,7 +4,7 @@ import Banner from '../assets/img/world/4.jpg'
 const PageBanner = () => {
   return (
     <div>
-      <section className='page-banner '>
+      <section className='page-banner'>
         <div className="container">
             <div className="row align-items-center justify-content-center">
                 <div className="col-lg-6 col-md-10" >

@@ -11,11 +11,21 @@
     line-height: 30px;
     color: #fff;
 }
-.btn-contact
+.btn-home-cont
 {
-    background-color: azure !important;
+    background-color:#fff;
     padding: 10px 25px;
     border: none !important;
+    list-style: none;
+    text-decoration: none;
+    color: #333e;
+}
+.btn-home-cont:hover{
+text-decoration: none;
+list-style: none;
+background-color: #333e ;
+color: white;
+
 }
 .home-contact
 {

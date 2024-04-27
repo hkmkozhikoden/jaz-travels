@@ -21,7 +21,7 @@ const Kerala = () => {
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora recusandae dolor nesciunt maxime laudantium in, consectetur aliquid sint repudiandae iure itaque incidunt, officia minus similique nobis repellat quos. Quas, suscipit.
                 </p>
-                <button className='btn-blue'>Explore more</button>
+                <button className='btn-gray'>Explore more</button>
               </div>
               <div className="col-md-6 mb-3 mt-3">
                <div className="row align-items-between">
