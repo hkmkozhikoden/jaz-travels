@@ -1,4 +1,6 @@
 import { useRef } from "react";
+import Dropdown from 'react-bootstrap/Dropdown';
+
 import { FaBars, FaTimes } from "react-icons/fa";
 import '../assets/css/navbar.css'
 import '../assets/css/main.css'
@@ -21,11 +23,23 @@ function Navbar() {
                     </div>
                     <div className="col-md-9 col-6 justify-content-end">
                        <nav ref={navRef} className=" text-end"> 
-					   <Link to={"/"}> <li > Home</li></Link>
-          			   <Link to={"/about"}><li>About</li></Link>
-          			   <Link to={"/blogs"}><li>Blog</li></Link>
-          			   <Link to={"/gallery"}><li>Gallery</li></Link>
-          			   <Link to={"/contact"}><li>Contact</li></Link>
+					   <Link className="text-uppercase" to={"/"}> <li > Home</li></Link>
+          			   <Link className="text-uppercase" to={"/about"}><li>About</li></Link>
+          			   <Link className="text-uppercase" to={"/blogs"}><li>Blog</li></Link>
+          			   <Link className="text-uppercase" to={"/tour"}><li>Tour</li></Link>
+          			   <Link className="text-uppercase" to={"/contact"}><li>Contact</li></Link> 
+						 <Dropdown>
+      						<Dropdown.Toggle className="text-uppercase" variant="transparent" id="dropdown-basic">
+      						  Tour
+      						</Dropdown.Toggle>
+
+      						<Dropdown.Menu>
+      						  <Dropdown.Item className="text-uppercase" href="/kashmir">Kashmir</Dropdown.Item>
+      						  <Dropdown.Item className="text-uppercase" href="/delhi">Delhi</Dropdown.Item>
+      						  <Dropdown.Item className="text-uppercase" href="/hyderabad">Hyderabad</Dropdown.Item>
+      						</Dropdown.Menu>
+   						 </Dropdown>
+
 			           	<button
 			           		className="nav-btn nav-close-btn"
 			           		onClick={showNavbar}>
