@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import Dropdown from 'react-bootstrap/Dropdown';
-
 import { FaBars, FaTimes } from "react-icons/fa";
 import '../assets/css/navbar.css'
 import '../assets/css/main.css'
