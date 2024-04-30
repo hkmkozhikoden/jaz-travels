@@ -33,7 +33,6 @@ function App() {
     <Route path="/tour" element={<Tour />} />
     <Route path="/kashmir" element={<Kashmir />} />
     <Route path="/delhi" element={<Delhi />} />
-
     </Routes>
     </Router>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../component/navbar'
-import Banner from './banner'
+import Banner from '../component/banner'
 import '../assets/modules/boostrap/bootstrap.css'
 import BannerSms from '../component/banner-sms'
 import Blogslider from '../component/blog-sldier'
