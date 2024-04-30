@@ -34,6 +34,9 @@ function App() {
     <Route path="/tour" element={<Tour />} />
     <Route path="/kashmir" element={<Kashmir />} />
     <Route path="/delhi" element={<Delhi />} />
+    <Route path="/hyderabad" element={<Hyderabad />} />
+
+
     </Routes>
     </Router>
     </div>

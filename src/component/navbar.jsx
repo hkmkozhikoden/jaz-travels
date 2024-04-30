@@ -35,7 +35,7 @@ function Navbar() {
       						<Dropdown.Menu>
       						  <Dropdown.Item className="text-uppercase" href="/kashmir">Kashmir</Dropdown.Item>
       						  <Dropdown.Item className="text-uppercase" href="/delhi">Delhi</Dropdown.Item>
-      						  <Dropdown.Item className="text-uppercase" href="/">Hyderabad</Dropdown.Item>
+      						  <Dropdown.Item className="text-uppercase" href="/hyderabad">Hyderabad</Dropdown.Item>
       						</Dropdown.Menu>
    						 </Dropdown>
 
