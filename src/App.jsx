@@ -13,6 +13,7 @@ import ScrollToTop from "./component/scrolltop";
 import Tour from "./pages/tour";
 import Kashmir from "./pages/kashmir";
 import Delhi from "./pages/delhi";
+import Hyderabad from "./pages/hyderabad";
 
 function App() {
     useEffect(() => {
