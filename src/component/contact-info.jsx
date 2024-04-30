@@ -12,22 +12,22 @@ const ContactInfo = () => {
                     <h3 className='sub-head '>Contact Info</h3>
                     <p className=''>Feel Free to contact us any time. We will get back to you as soon as we can!.</p>
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-6 mb-2 mt-2">
                         <input type="text" className="form-control form-group" placeholder="Name" required />
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 mb-2 mt-2">
                         <input type="number" className="form-control form-group" placeholder="phone number" required />
                         </div>
-                        <div className="col-md-12">
+                        <div className="col-md-12 mb-2 mt-2">
                         <input type="email" className="form-control form-group" placeholder="Email" required />
                         </div>
-                        <div className="col-md-12">
+                        <div className="col-md-12 mb-2 mt-2">
                         <input type="text" className="form-control form-group" placeholder="Subject" required />
                         </div>
-                        <div className="col-md-12">
+                        <div className="col-md-12 mb-2 mt-2">
                         <textarea type="text" className="form-control form-group" placeholder="Message" required />
                         </div>
-                        <div className="col-12" data-aos="fade-up" data-aos-offset="10">
+                        <div className="col-12 mb-2 mt-2" data-aos="fade-up" data-aos-offset="10">
                             <button className='btn-submit mt-3 mb-3'>Sumbit</button>
                         </div>
                     </div>
