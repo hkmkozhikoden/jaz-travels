@@ -25,7 +25,6 @@ function Navbar() {
 					   <Link className="text-uppercase" to={"/"}> <li > Home</li></Link>
           			   <Link className="text-uppercase" to={"/about"}><li>About</li></Link>
           			   <Link className="text-uppercase" to={"/blogs"}><li>Blog</li></Link>
-          			   <Link className="text-uppercase" to={"/tour"}><li>Tour</li></Link>
           			   <Link className="text-uppercase" to={"/contact"}><li>Contact</li></Link> 
 						 <Dropdown>
       						<Dropdown.Toggle className="text-uppercase" variant="transparent" id="dropdown-basic">

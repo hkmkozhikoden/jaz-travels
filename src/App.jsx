@@ -10,7 +10,6 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import './assets/modules/aos/aos.css';
 import ScrollToTop from "./component/scrolltop";
-import Tour from "./pages/tour";
 import Kashmir from "./pages/kashmir";
 import Delhi from "./pages/delhi";
 import Hyderabad from "./pages/hyderabad";
@@ -31,7 +30,6 @@ function App() {
     <Route path="/about" element={<About />} />
     <Route path="/blogs" element={<Course1/>} />
     <Route path="/contact" element={<Contact />} />
-    <Route path="/tour" element={<Tour />} />
     <Route path="/kashmir" element={<Kashmir />} />
     <Route path="/delhi" element={<Delhi />} />
     <Route path="/hyderabad" element={<Hyderabad />} />

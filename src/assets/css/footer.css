@@ -37,6 +37,12 @@
     padding: 6px 0px;
     color: #f6ebeb;
     opacity: 0.8;
+    list-style: disc;
+    text-decoration: none !important;
+  }
+  .footer-contact a{
+    text-decoration: none ;
+    list-style: none;
   }
   .footer-contact li.active {
     color: #f6ebeb;
@@ -54,13 +60,15 @@
   }
   .contact-right li {
     display: block;
-    list-style: none;
+    list-style: none !important;
     margin-bottom: 20px;
   }
   .contact-right li a {
     color: #f6ebeb !important;
     opacity: 0.8;
     display: inline-flex;
+    list-style: none !important;
+    text-decoration: none !important;
     font-size: 1rem;
   }
   .footer-contact li:hover {

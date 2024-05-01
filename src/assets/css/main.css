@@ -92,7 +92,7 @@ nav {
 		font-size: 1.5rem;
 	}
 }
-.nav{
+header .nav{
     padding: 13px 40px !important;
 }
 header .dropdown .dropdown-toggle, header .dropdown .dropdown-toggle:focus-visible
