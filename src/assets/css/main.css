@@ -103,6 +103,14 @@ header .dropdown .dropdown-toggle, header .dropdown .dropdown-toggle:focus-visib
 	border: none !important;
 	outline: none;
 }
+@media only screen and (max-width: 1024px)
+{
+	header .dropdown .dropdown-toggle, header .dropdown .dropdown-toggle:focus-visible
+{
+	font-size: 1.5rem !important;
+
+}
+}
  .dropdown-menu .dropdown-item
 {
 	padding: 0.35rem 0.45rem !important;

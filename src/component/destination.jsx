@@ -17,41 +17,49 @@ const Destination = () => {
                 </div>
                 <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
                     <div className="card-sec">
-                        <img src={Kerala} alt="destination 1" className='trip-img' />
+                      <div className="card-img">
+                         <img src={Kerala} alt="destination 1" className='trip-img' />
+                      </div>
                         <div className="dest-cont text-center mt-3">
                             <h5 className='text-uppercase sub-head'>dubai</h5>
                             <h5>from $300</h5>
-                            <button className='btn-l-expolre mb-3'> Explore</button>
+                            <button className='btn-l-expolre mb-3'> View More</button>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
                     <div className="card-sec">
-                        <img src={Kerala1} alt="destination 1" className='trip-img' />
+                       <div className="card-img">
+                       <img src={Kerala1} alt="destination 1" className='trip-img' />
+                       </div>
                         <div className="dest-cont text-center mt-3">
                             <h5 className='text-uppercase sub-head'>dubai</h5>
                             <h5>from $300</h5>
-                            <button className='btn-l-expolre mb-3'> Explore</button>
+                            <button className='btn-l-expolre mb-3'> View More</button>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
                     <div className="card-sec">
-                        <img src={Kerala2} alt="destination 1" className='trip-img' />
+                       <div className="card-img">
+                       <img src={Kerala2} alt="destination 1" className='trip-img' />
+                       </div>
                         <div className="dest-cont text-center mt-3">
                             <h5 className='text-uppercase sub-head'>dubai</h5>
                             <h5>from $300</h5>
-                            <button className='btn-l-expolre mb-3'> Explore</button>
+                            <button className='btn-l-expolre mb-3'> View More</button>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
                     <div className="card-sec">
+                        <div className="card-img">
                         <img src={Kerala3} alt="destination 1" className='trip-img' />
+                        </div>
                         <div className="dest-cont text-center mt-3">
                             <h5 className='text-uppercase sub-head'>dubai</h5>
                             <h5>from $300</h5>
-                            <button className='btn-l-expolre mb-3'> Explore</button>
+                            <button className='btn-l-expolre mb-3'> View More</button>
                         </div>
                     </div>
                 </div>
@@ -67,41 +75,50 @@ const Destination = () => {
                 </div>
                 <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
                     <div className="card-sec">
+                        <div className="card-img">
                         <img src={Kerala} alt="destination 1" className='trip-img' />
+                        </div>
                         <div className="dest-cont text-center mt-3">
                             <h5 className='text-uppercase sub-head'>Delhi</h5>
                             <h5>from $300</h5>
-                            <button className='btn-l-expolre mb-3'> Explore</button>
+                            <button className='btn-l-expolre mb-3'> View More</button>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
                     <div className="card-sec">
+                        <div className="card-img">
                         <img src={Kerala2} alt="destination 1" className='trip-img' />
+                        </div>
                         <div className="dest-cont text-center mt-3">
                             <h5 className='text-uppercase sub-head'>Mumbai</h5>
                             <h5>from $300</h5>
-                            <button className='btn-l-expolre mb-3'> Explore</button>
+                            <button className='btn-l-expolre mb-3'> View More</button>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
                     <div className="card-sec">
+                        <div className="card-img">
                         <img src={Kerala1} alt="destination 1" className='trip-img' />
+                        </div>
                         <div className="dest-cont text-center mt-3">
                             <h5 className='text-uppercase sub-head'>hydrabad</h5>
                             <h5>from $300</h5>
-                            <button className='btn-l-expolre mb-3'> Explore</button>
+                            <button className='btn-l-expolre mb-3'> View More</button>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
                     <div className="card-sec">
+                        <div className="card-img">
                         <img src={Kerala4} alt="destination 1" className='trip-img' />
+
+                        </div>
                         <div className="dest-cont text-center mt-3">
                             <h5 className='text-uppercase sub-head'>gujarat</h5>
                             <h5>from $300</h5>
-                            <button className='btn-l-expolre mb-3'> Explore</button>
+                            <button className='btn-l-expolre mb-3'> View More</button>
                         </div>
                     </div>
                 </div>

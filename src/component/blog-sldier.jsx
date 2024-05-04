@@ -11,7 +11,7 @@ const Blogslider = () => {
       slidesToScroll:1,
       slidesToShow:3,
       autoplay: true,
-      autoplaySpeed: 3000,
+      autoplaySpeed: 2500,
       responsive: [{
  
         breakpoint: 1024,
@@ -37,7 +37,7 @@ const Blogslider = () => {
       <section className='blog-sliders'>
         <div className="container">
            <div className="row align-items-center justify-content-center">
-              <div className="col-12 mt-2">
+              <div className="col-12 mt-2 mb-2">
                 <h3 className='text-center sub-head text-uppercase'>Our Main package</h3>
               </div>
               <div className="col-12" data-aos="fade-up" data-aos-offset="10">

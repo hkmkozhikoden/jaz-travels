@@ -1,6 +1,12 @@
 .card-sec
 {
     box-shadow: 4px 3px 40px rgba(16, 33, 34, .06);
+    
+}
+.destination .card-img
+{
+    position: relative;
+    overflow: hidden;
 }
 .trip-img
 {
@@ -8,11 +14,26 @@
     height: 250px;
     width: 100%;
     object-fit: cover;
+    transition: all .66s ease-in-out
+}
+.card-sec:hover .trip-img
+{
+    transform: scale(1.1);
+    position: relative;
 }
 
 .btn-l-expolre, .btn-l-expolre:focus-visible
 {
-    background-color: rgb(245, 243, 241);
+    background-color: transparent;
     padding: 7px 22px;
-    border: none !important;
+    box-shadow: 10px 10px 4px  rgb(209, 208, 206);
+    border: 1px solid #33333e;
+
+}
+.btn-l-expolre:hover
+{
+    background: #1F3046 !important;
+    color: white;
+    transition: .45s ease-out;
+
 }

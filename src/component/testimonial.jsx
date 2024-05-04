@@ -2,9 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Favas from "../../src/assets/img/kerala/kerala.jpg";
-import Fayis from "../../src/assets/img/kerala/kerala.jpg";
-import Nithin from "../../src/assets/img/kerala/kerala.jpg";
+import Favas from "../../src/assets/img/team/1.jpg";
+import Fayis from "../../src/assets/img/team/2.jpg";
+import Nithin from "../../src/assets/img/team/3.jpg";
+import Rahul from "../../src/assets/img/team/4.jpg";
 
 import "../assets/css/testimonial.css"
 
@@ -71,6 +72,13 @@ const data = [
     {
         name:'Nithin',
         img: Nithin,
+        review: 'Lorem Ipsum has been the industrys standard dmmy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker',
+        possion:'MANAGER'
+
+      },
+      {
+        name:'Rahul',
+        img: Rahul,
         review: 'Lorem Ipsum has been the industrys standard dmmy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker',
         possion:'MANAGER'
 

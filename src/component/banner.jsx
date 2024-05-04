@@ -2,16 +2,17 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Favas from "../../src/assets/img/img/kashmir.jpg";
-import Fayis from "../../src/assets/img/img/kashmir 1.jpg";
-import Nithin from "../../src/assets/img/img/delhi.jpg";
+import Banner1 from "../../src/assets/img/img/kashmir.jpg";
+import Banner2 from "../../src/assets/img/img/kashmir 1.jpg";
+import Banner3 from "../../src/assets/img/img/delhi.jpg";
+import Banner4 from "../../src/assets/img/kerala/2.jpg";
 import '../assets/css/banner.css';
 
 function Banner() {
   const settings = {
     infinite: true,
     speed: 1500,
-    autoplay: false,
+    autoplay: true,
     slidesToShow: 1,
     arrows: true,
     dot:false,
@@ -44,25 +45,28 @@ function Banner() {
 
 const data = [
   {
-    name: "Favas",
-    img: Favas,
+    name:'Book Now',
+    img: Banner1,
     mainhead:
       "Best & Amazing Adventure in The World.",
-    possion: "CEO",
   },
   {
-    name: "fayis",
-    img: Fayis,
+    name:'Book Now',
+    img: Banner2,
     mainhead:
       "Best & Amazing Adventure in The World.",
-    possion: "CMO",
   },
   {
-    name: "Nithin",
-    img: Nithin,
+    name:'Book Now',
+    img: Banner3,
     mainhead:
       "Best & Amazing Adventure in The World.",
-    possion: "MANAGER",
+  },
+  {
+    name:'Book Now',
+    img: Banner4,
+    mainhead:
+      "Best & Amazing Adventure in The World.",
   },
 ];
 
