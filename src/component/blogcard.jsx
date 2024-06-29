@@ -50,7 +50,7 @@ const BlogCardPage = () => {
         <div className="container">
           {blogs.map((blog, index) => (
             <div key={index} className={`row align-items-center justify-content-center mt-2 mb-2 mt-md-3 mb-md-3 border-bottom ${index % 2 === 0 ? 'even-blog' : 'odd-blog'}`}>
-              <div className={`col-md-6  ${index % 2 === 0 ? 'order-md-1' : 'order-md-2'}`} data-aos={index % 2 === 0 ? "zoom-in-right" : "zoom-in-left"} data-aos-offset="10">
+              <div className={`col-md-6  ${index % 2 === 0 ? 'order-md-1' : 'order-md-2'}`} data-aos={index % 2 === 0 ? "fade-right" : "fade-left"} data-aos-offset="10">
                <Link to={'/'}>
                <div className="blog-conts">
                   <h3>{blog.title}</h3>
@@ -58,7 +58,7 @@ const BlogCardPage = () => {
                   <p>{blog.content}</p>
                 </div></Link>
               </div>
-              <div className={`col-md-6 ${index % 2 === 0 ? 'order-md-2' : 'order-md-1'}`} data-aos={index % 2 === 0 ? "zoom-in-left" : "zoom-in-right"} data-aos-offset="10">
+              <div className={`col-md-6 ${index % 2 === 0 ? 'order-md-2' : 'order-md-1'}`} data-aos={index % 2 === 0 ? "fade-left" : "fade-right"} data-aos-offset="10">
                 <div className="blog-img">
                   <img src={blog.image} alt="blog-img" />
                 </div>

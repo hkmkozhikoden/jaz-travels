@@ -7,8 +7,8 @@ const ContactInfo = () => {
       <section className='contact-form position-relative'>
         <div className="container">
             <div className="row align-items-center">
-                <div className="col-md-6" data-aos="fade-right" data-aos-offset="10">
-                  <div className="contact-info text-white" data-aos="fade-right" data-aos-offset="10">
+                <div className="col-md-6" data-aos="fade-up" data-aos-offset="10">
+                  <div className="contact-info text-white" >
                     <h3 className='sub-head '>Contact Info</h3>
                     <p className=''>Feel Free to contact us any time. We will get back to you as soon as we can!.</p>
                     <div className="row">
@@ -27,13 +27,13 @@ const ContactInfo = () => {
                         <div className="col-md-12 mb-2 mt-2">
                         <textarea type="text" className="form-control form-group" placeholder="Message" required />
                         </div>
-                        <div className="col-12 mb-2 mt-2" data-aos="fade-up" data-aos-offset="10">
+                        <div className="col-12 mb-2 mt-2">
                             <button className='btn-submit mt-3 mb-3'>Sumbit</button>
                         </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-md-5 offset-md-1 "data-aos="fade-left" data-aos-offset="10">
+                <div className="col-md-5 offset-md-1 "data-aos="fade-up" data-aos-offset="10">
                     <div className="adress-sec text-white">
                     <div className="row align-items-center">
                         <div className="col-md-6 mb-3 mt-3">
@@ -62,7 +62,7 @@ const ContactInfo = () => {
                             <h6>Address</h6>
                             <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h6>
                         </div>
-                        <div className="col-12" data-aos="fade-up" data-aos-offset="10">
+                        <div className="col-12">
                         <button className='btn-submit mb-3'>Live chat</button>
                         </div>
                     </div>

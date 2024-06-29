@@ -11,11 +11,11 @@ const Destination = () => {
       <section className='destination'>
          <div className="container">
             <div className="row align-items-center justify-content-center">
-                <div className="col-12 text-center mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
+                <div className="col-12 text-center mb-3 mt-3" data-aos="fade-up" data-aos-offset="10">
                     <h6>TOURS</h6>
                     <h1 className='text-uppercase sub-head'>International</h1>
                 </div>
-                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
+                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="fade-up" data-aos-offset="10">
                     <div className="card-sec">
                       <div className="card-img">
                          <img src={Kerala} alt="destination 1" className='trip-img' />
@@ -27,7 +27,7 @@ const Destination = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
+                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="fade-up" data-aos-offset="10">
                     <div className="card-sec">
                        <div className="card-img">
                        <img src={Kerala1} alt="destination 1" className='trip-img' />
@@ -39,7 +39,7 @@ const Destination = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
+                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="fade-up" data-aos-offset="10">
                     <div className="card-sec">
                        <div className="card-img">
                        <img src={Kerala2} alt="destination 1" className='trip-img' />
@@ -51,7 +51,7 @@ const Destination = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
+                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="fade-up" data-aos-offset="10">
                     <div className="card-sec">
                         <div className="card-img">
                         <img src={Kerala3} alt="destination 1" className='trip-img' />
@@ -69,11 +69,11 @@ const Destination = () => {
       <section className='destination'>
          <div className="container">
             <div className="row align-items-center justify-content-center">
-                <div className="col-12 text-center mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
+                <div className="col-12 text-center mb-3 mt-3" data-aos="fade-up" data-aos-offset="10">
                     <h6>TOURS</h6>
                     <h1 className='text-uppercase sub-head'>National</h1>
                 </div>
-                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
+                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="fade-up" data-aos-offset="10">
                     <div className="card-sec">
                         <div className="card-img">
                         <img src={Kerala} alt="destination 1" className='trip-img' />
@@ -85,7 +85,7 @@ const Destination = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
+                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="fade-up" data-aos-offset="10">
                     <div className="card-sec">
                         <div className="card-img">
                         <img src={Kerala2} alt="destination 1" className='trip-img' />
@@ -97,7 +97,7 @@ const Destination = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
+                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="fade-up" data-aos-offset="10">
                     <div className="card-sec">
                         <div className="card-img">
                         <img src={Kerala1} alt="destination 1" className='trip-img' />
@@ -109,7 +109,7 @@ const Destination = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="zoom-in-right" data-aos-offset="10">
+                <div className="col-md-4 col-lg-3 mb-3 mt-3" data-aos="fade-up" data-aos-offset="10">
                     <div className="card-sec">
                         <div className="card-img">
                         <img src={Kerala4} alt="destination 1" className='trip-img' />

@@ -18,7 +18,7 @@ function PricesHyderabad() {
       <section className='prices'>
         <div className="container">
           <div className="row">
-            <div className="col-12 mb-3 mt-3">
+            <div className="col-12 mb-3 mt-3" data-aos="fade-down" data-aos-offset="10">
               <h2>About Prices</h2>
               <Tabs
                   defaultActiveKey="Information"
