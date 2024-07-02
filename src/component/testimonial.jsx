@@ -21,7 +21,6 @@ function Testimonial() {
         slidesToScroll: 1,
         
       };
-
   return (
     <div>
       <section className="testimonial">
